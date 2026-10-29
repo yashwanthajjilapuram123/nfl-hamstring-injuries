@@ -1,0 +1,55 @@
+                                                     step       n
+0                     weekly injury-report rows 2009-2025   90752
+1                          rows naming a hamstring injury    8262
+2        hamstring episodes (all seasons, all game types)    3315
+3             regular-season hamstring episodes 2013-2024    2410
+4        episodes without snap-count exposure that season      14
+5  player-seasons with >= 1 regular-season game 2013-2024   24923
+6      player-games (regular season, >= 1 snap) 2013-2024  285073
+7                                                 players    6682
+
+                                                                  measure  estimate    low   high
+0                               Hamstring episodes per 1,000 player-games     8.405  8.014  8.842
+1            Time-loss episodes (>= 1 game missed) per 1,000 player-games     4.687  4.417  4.988
+2     Rate ratio after a hamstring episode in the previous season (crude)     2.148    NaN    NaN
+3  Rate ratio, adjusted for position group and age band (Mantel-Haenszel)     1.532  1.325  1.706
+4          Same, time-loss episodes only as the outcome (Mantel-Haenszel)     1.575  1.318  1.837
+5                                         Median games missed per episode     1.000  0.000  2.000
+6                                   Share of episodes with no game missed     0.440    NaN    NaN
+7                                   Same-season re-injury after returning     0.112  0.100  0.126
+8                          Players with 2+ episodes, % of injured players     0.362    NaN    NaN
+
+    group  player_games  episodes  rate_per_1000_games    low   high  timeloss_episodes  timeloss_rate  tl_low  tl_high
+0      WR         31386       478                15.23  13.69  16.89                233           7.42    6.35     8.51
+1      CB         30680       484                15.78  14.27  17.38                287           9.35    8.17    10.65
+2       S         25097       287                11.44  10.01  12.92                159           6.34    5.28     7.36
+3      RB         22634       229                10.12   8.59  11.64                134           5.92    4.86     7.11
+4      TE         18613       145                 7.79   6.30   9.32                 79           4.24    3.30     5.21
+5      LB         42016       443                10.54   9.33  11.79                273           6.50    5.59     7.40
+6      DL         42595       170                 3.99   3.33   4.68                 82           1.93    1.50     2.40
+7      OL         44791       104                 2.32   1.83   2.84                 63           1.41    1.03     1.83
+8      QB          7740        25                 3.23   1.76   5.00                 14           1.81    0.91     2.88
+9  K/P/LS         18834        29                 1.54   0.93   2.24                 10           0.53    0.21     0.92
+
+                                     group  player_seasons  episodes  player_games  rate_per_1000_games
+0     hamstring episode in previous season            1662       330         20153                16.37
+1  no hamstring episode in previous season           15810      1459        191390                 7.62
+
+                          share
+0 games (played through)  0.440
+1 game                    0.214
+2-3 games                 0.220
+4+ games                  0.126
+
+   games_missed_first  episodes  reinjured_same_season  share    low   high
+0  0 (played through)      1060                    129  0.122  0.103  0.143
+1                   1       488                     55  0.113  0.088  0.144
+2                 2-3       490                     52  0.106  0.082  0.137
+3                  4+       197                     15  0.076  0.047  0.122
+4    all who returned      2235                    251  0.112  0.100  0.126
+
+  episodes  players
+0        1      967
+1        2      338
+2       3+      211
+

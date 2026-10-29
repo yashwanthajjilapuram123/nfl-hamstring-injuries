@@ -1,0 +1,10 @@
+measure,estimate,low,high
+"Hamstring episodes per 1,000 player-games",8.404864718861484,8.013916823842086,8.841513791079528
+"Time-loss episodes (>= 1 game missed) per 1,000 player-games",4.686518891652313,4.416507255068121,4.987632852632443
+Rate ratio after a hamstring episode in the previous season (crude),2.148019331347542,,
+"Rate ratio, adjusted for position group and age band (Mantel-Haenszel)",1.5317879472241904,1.324809588003498,1.7064473883834885
+"Same, time-loss episodes only as the outcome (Mantel-Haenszel)",1.5746329147919393,1.3180038601658774,1.837308097266694
+Median games missed per episode,1.0,0.0,2.0
+Share of episodes with no game missed,0.43983402489626555,,
+Same-season re-injury after returning,0.11230425055928411,0.09987358504168523,0.12606540054800544
+"Players with 2+ episodes, % of injured players",0.36213720316622694,,

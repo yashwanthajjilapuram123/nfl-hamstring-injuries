@@ -1,0 +1,9 @@
+step,n
+weekly injury-report rows 2009-2025,90752
+  rows naming a hamstring injury,8262
+"hamstring episodes (all seasons, all game types)",3315
+regular-season hamstring episodes 2013-2024,2410
+  episodes without snap-count exposure that season,14
+player-seasons with >= 1 regular-season game 2013-2024,24923
+"player-games (regular season, >= 1 snap) 2013-2024",285073
+players,6682
